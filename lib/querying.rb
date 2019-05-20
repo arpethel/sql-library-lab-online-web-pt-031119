@@ -25,7 +25,7 @@ def select_series_title_with_most_human_characters
   "SELECT series.title FROM series
   JOIN characters ON characters.series_id = series.id
   WHERE EXISTS (SELECT COUNT(characters.species) AS c_s FROM characters)
-  ORDER BY c_s
+
   "
 
 end
