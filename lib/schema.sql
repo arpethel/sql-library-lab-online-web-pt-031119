@@ -32,7 +32,7 @@ CREATE TABLE characters
     name TEXT,
     species TEXT,
     motto TEXT,
-    series_id TEXT,
+    series_id INTEGER,
     author_id TEXT
 );
 
